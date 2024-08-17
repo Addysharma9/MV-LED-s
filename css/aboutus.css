@@ -1,0 +1,107 @@
+
+        #hero-section {
+            width: 100%;
+
+        }
+
+        #hero-sectionpart1 {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
+            justify-content: center;
+            padding: 5%;
+            box-sizing: border-box;
+        }
+
+        #hero-sectionpart1 h4 {
+            font-weight: bolder;
+            font-size: 2.4rem;
+            font-family: Plus Jakarta Sans, sans-serif;
+            font-weight: bolder;
+            color: grey;
+            /* background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-top: 8px;
+    color: transparent; */
+        }
+
+        #hero-sectionpart1 h1 {
+            font-weight: bolder;
+            font-family: Plus Jakarta Sans, sans-serif;
+            font-weight: bolder;
+            font-size: 3.4rem;
+            background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            margin-top: 8px;
+            color: transparent;
+        }
+
+        #hero-sectionpart1 p {
+            font-size: 1.4rem;
+        }
+
+        #hero-sectionpart2 {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #hero-section {
+            display: flex;
+        }
+
+        #hero-sectionpart2 img {
+            height: 500px;
+        }
+
+        @media only screen and (max-width: 1180px) {
+            #hero-section {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #hero-sectionpart2 {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+            #hero-sectionpart1 p {
+                font-size: 1.2rem;
+            }
+            #hero-sectionpart2 img {
+                height: auto;
+                margin-left: 60px;
+                margin-right: 60px;
+                width: 100%;
+            }
+            #hero-sectionpart1 h1 {
+                font-weight: bolder;
+                font-family: Plus Jakarta Sans, sans-serif;
+                font-weight: bolder;
+                font-size: 2.0rem;
+                background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
+                -webkit-background-clip: text;
+                background-clip: text;
+                margin-top: 8px;
+                color: transparent;
+            }
+    
+
+            #hero-sectionpart1 {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+
+                justify-content: center;
+                padding: 5%;
+                box-sizing: border-box;
+
+            }
+        }
