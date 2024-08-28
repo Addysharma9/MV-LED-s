@@ -1,0 +1,165 @@
+
+#contact-section-res {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact-section-res-part1 {
+    width: 800px;
+    display: flex;
+    padding: 3%;
+    box-sizing: border-box;
+    justify-content: center;
+
+}
+
+#contact-section-res-part2 {
+    width: 40%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    font-size: 16px;
+    color: #333;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-bottom: 1px solid #0056D2;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    color: #999;
+    font-size: 14px;
+    background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+text-align: start;
+    font-weight: normal;
+}
+
+#forms-section {
+    display: flex;
+    justify-content: space-between
+}
+
+#firstName {
+    width: 100%;
+}
+.form-group {
+    margin-left: 50px;
+}
+
+.form-group label {
+    margin-left: 40px;
+    font-size: 1.6rem;
+}
+
+#contact-section-res-part2 {
+    font-size: 1.4rem;
+}
+
+#contact-section-res-part2 p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#contact-section-res-part2 h1 {
+    font-size: 3.4rem;
+    background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+text-align: center;
+}
+#contact-section-res-part2{
+    border: 2px solid transparent; /* Initial transparent border */
+ /* Gradient border */
+border-image-slice: 1; /* Ensures the entire gradient is applied */
+
+border-radius: 15px; /* Adjust the radius to your preference */
+
+/* Glow effect */
+border: 2px solid rgb(80, 156, 255) ;
+
+/* Ensures the background doesn't extend into the border */
+background-clip: padding-box; 
+padding: 10px; /* Space between the content and border */
+}
+@media only screen and (max-width: 1581px) {
+    #forms-section{
+        flex-direction: column;
+        
+    }
+}
+@media only screen and (max-width: 1373px) {
+    #contact-section-res-part1{
+        display: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .form-group label {
+    margin-left: 40px;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+    #contact-section-res-part2 h1 {
+    font-size: 2.4rem;
+    background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+text-align: center;
+}
+#contact-section-res-part2 p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+    #contact-section-res-part2{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #form-section{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .form-group {
+        width: 80vw;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    #contact-section-res-part2{
+        padding: 5%;
+        box-sizing: border-box;
+        
+    }
+}
+.mContact{font-size: 3.4rem;
+background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+text-align: center;}
