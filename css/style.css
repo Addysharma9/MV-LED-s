@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -51,8 +52,8 @@
 #container-navigation {
     width: 30%;
     margin-top: 8px;
-
-    margin-right: 50px;
+    font-family: "Plus Jakarta Sans", sans-serif;;
+    margin-left: 50px;
 
 }
 
@@ -209,7 +210,8 @@ font-weight: bolder;
 }
 #mid-div{
 display: flex;
-justify-content: center;
+width: 100%;
+justify-content: space-around;
 }
 #box-curve{
     border-radius: 10px;
@@ -306,7 +308,7 @@ justify-content: center;
 .makesure{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around
    align-items: center;
 
 }
@@ -372,7 +374,8 @@ li{
 #container-navigation {
     width: 30%;
     margin-top: 8px;
-    margin-right: 50px;
+  margin-left: 60px;
+    
 }
 
 #container-navigation ul {
@@ -422,7 +425,7 @@ body{
 #mid-div {
     display: flex;
     justify-content: center;
-   
+   width: 100%;
     align-items: center;
 
     flex-wrap: wrap; /* Ensure divs wrap to new lines if needed */

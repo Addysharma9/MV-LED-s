@@ -13,290 +13,310 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="/css/contact.css">
-<style>
-body{
-    overflow-x: hidden;
-    font-family: 'Jakarta Sans', sans-serif;
-}
-.makesure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 20px; /* Adjust the space between items */
-}
+    <style>
+        body {
+            overflow-x: hidden;
+            font-family: 'Jakarta Sans', sans-serif;
+        }
 
-#box-curve {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px; /* Adjust the space between image and text */
-    transition: transform 0.3s ease-in-out;
-}
+        .makesure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 20px;
+            /* Adjust the space between items */
+        }
 
-.makesure:hover #box-curve {
-    transform: scale(1.05); /* Slightly enlarge on hover */
-}
+        #box-curve {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            /* Adjust the space between image and text */
+            transition: transform 0.3s ease-in-out;
+        }
 
-.all {
-    text-align: center;
-}
+        .makesure:hover #box-curve {
+            transform: scale(1.05);
+            /* Slightly enlarge on hover */
+        }
 
-@media (max-width: 768px) {
-    #mid-div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .all {
-    text-align: center;
-    margin-right: 8px ;
-}
-}
-.containerss {
-    max-width: 1200px;
-}
+        .all {
+            text-align: center;
+        }
 
-img {
-    border-radius: 15px;
-    max-height: 500px;
-    object-fit: cover;
-}
+        @media (max-width: 768px) {
+            #mid-div {
+                display: flex;
+                flex-direction: column;
+            
+                justify-content: space-between;
+                align-items: center;
+            }
 
-.mForm-title {
-    color: #007bff;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
+            .all {
+                text-align: center;
+                margin-right: 8px;
+            }
+        }
 
-.mForm-description {
-    color: #6c757d;
-}
+        .containerss {
+            max-width: 1200px;
+        }
 
-.mForm-group label.mForm-label {
-    font-weight: bold;
-}
+        img {
+            border-radius: 15px;
+            max-height: 500px;
+            object-fit: cover;
+        }
 
-.inptBtn {
-    background-color: #007bff;
-    border: none;
-    width: 50%;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
+        .mForm-title {
+            color: #007bff;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
 
-.inptBtn:hover {
-    background-color: #0056b3;
-}
+        .mForm-description {
+            color: #6c757d;
+        }
 
-.text-right {
-    text-align: right;
-}
+        .mForm-group label.mForm-label {
+            font-weight: bold;
+        }
 
-@media (max-width: 767px) {
-    .container {
-        padding: 0 15px;
-        
-    }
+        .inptBtn {
+            background-color: #007bff;
+            border: none;
+            width: 50%;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
 
-   
+        .inptBtn:hover {
+            background-color: #0056b3;
+        }
 
-    .col-md-6 {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
+        .text-right {
+            text-align: right;
+        }
 
-    .text-right {
-        text-align: center;
-    }
+        @media (max-width: 767px) {
+            .container {
+                padding: 0 15px;
 
-    .inptBtn {
-        width: 100%;
-    }
-}
-.jdd{
-  border-top:none ;
-  border-right:none ;
-  border-left:none ;
-
-
-}
-.mContact{font-size: 3.4rem;
-background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
--webkit-background-clip: text;
-background-clip: text;
-color: transparent;
-text-align: center;}
+            }
 
 
 
-</style>
+            .col-md-6 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .text-right {
+                text-align: center;
+            }
+
+            .inptBtn {
+                width: 100%;
+            }
+        }
+
+        .jdd {
+            border-top: none;
+            border-right: none;
+            border-left: none;
+
+
+        }
+
+        .mContact {
+            font-size: 3.4rem;
+            background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-align: center;
+        }
+    </style>
 </head>
 <style>
-   
+
 </style>
 <div id="loaderContainer">
     <div id="loaderBalls">
-      <div id="loaderUp">
-        <div class="loaderBall"></div>
-        <div class="loaderBall"></div>
-        <div class="loaderBall"></div>
-        <div class="loaderBall"></div>
-        <div class="loaderBall"></div>
-      </div>
-      <div id="loaderDown">
-        <div class="loaderBall"></div>
-        <div class="loaderBall"></div>
-        <div class="loaderBall"></div>
-        <div class="loaderBall"></div>
-        <div class="loaderBall"></div>
-      </div>
+        <div id="loaderUp">
+            <div class="loaderBall"></div>
+            <div class="loaderBall"></div>
+            <div class="loaderBall"></div>
+            <div class="loaderBall"></div>
+            <div class="loaderBall"></div>
+        </div>
+        <div id="loaderDown">
+            <div class="loaderBall"></div>
+            <div class="loaderBall"></div>
+            <div class="loaderBall"></div>
+            <div class="loaderBall"></div>
+            <div class="loaderBall"></div>
+        </div>
     </div>
-  </div>
-  
-  <style>
-    
-  body {
-    margin: 0px;
-  }
-  
-  #loaderContainer {
-  position: fixed; /* Change from relative to fixed */
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 120px 1fr;
-  background-color: #1d3f4a;
-  z-index: 9999; /* Ensure it's above all other elements */
-  overflow: hidden; /* Prevent scrolling */
-}
-  
-  #loaderBalls {
-    grid-row: 2 / 3;
-    grid-column: 2 / 3;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 60px 60px;
-  }
-  
-  #loaderUp, #loaderDown {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    place-items: center;
-  }
-  
-  #loaderUp .loaderBall {
-    animation: loaderWave 2s ease-in-out infinite;
-    background-color: #eb3ee5;
-  }
-  
-  #loaderDown .loaderBall {
-    animation: loaderReverseWave 2s ease-in-out infinite;
-    background-color: #17e8a8;
-  }
-  
-  .loaderBall {
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    background-color: #000;
-  }
-  
-  #loaderUp .loaderBall:nth-child(2) {
-    animation-delay: -0.25s;
-    background-color: #c53ced;
-  }
-  
-  #loaderUp .loaderBall:nth-child(3) {
-    animation-delay: -0.5s;
-    background-color: #8f39db;
-  }
-  
-  #loaderUp .loaderBall:nth-child(4) {
-    animation-delay: -0.75s;
-    background-color: #7223cb;
-  }
-  
-  #loaderUp .loaderBall:nth-child(5) {
-    animation-delay: -1s;
-    background-color: #4427d8;
-  }
-  
-  #loaderDown .loaderBall:nth-child(2) {
-    animation-delay: -0.25s;
-    background-color: #1fddc0;
-  }
-  
-  #loaderDown .loaderBall:nth-child(3) {
-    animation-delay: -0.5s;
-    background-color: #2fd3d9;
-  }
-  
-  #loaderDown .loaderBall:nth-child(4) {
-    animation-delay: -0.75s;
-    background-color: #27b4ea;
-  }
-  
-  #loaderDown .loaderBall:nth-child(5) {
-    animation-delay: -1s;
-    background-color: #2887e2;
-  }
-  
-  @keyframes loaderWave {
-    0%, 100% {
-      transform: translateY(100px);
+</div>
+
+<style>
+    body {
+        margin: 0px;
     }
-    50% {
-      transform: translateY(-80px);
+
+    #loaderContainer {
+        position: fixed;
+        /* Change from relative to fixed */
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 120px 1fr;
+        background-color: #1d3f4a;
+        z-index: 9999;
+        /* Ensure it's above all other elements */
+        overflow: hidden;
+        /* Prevent scrolling */
     }
-  }
-  
-  @keyframes loaderReverseWave {
-    0%, 100% {
-      transform: translateY(-100px);
+
+    #loaderBalls {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 60px;
     }
-    50% {
-      transform: translateY(80px);
+
+    #loaderUp,
+    #loaderDown {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        place-items: center;
     }
-  }
-  .mEdits:hover {
-  font-weight: 700;
-    background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    margin-top: 8px;
-    color: transparent;
-    
-    
-    
-    
-}
-.rangerswidth{
-    display: flex !important;
-    justify-content: center ;
-    align-items: center;
-}
-  
-  </style>
-  <script>
-    window.addEventListener("load", function() {
-      document.getElementById("loaderContainer").style.display = "none";
+
+    #loaderUp .loaderBall {
+        animation: loaderWave 2s ease-in-out infinite;
+        background-color: #eb3ee5;
+    }
+
+    #loaderDown .loaderBall {
+        animation: loaderReverseWave 2s ease-in-out infinite;
+        background-color: #17e8a8;
+    }
+
+    .loaderBall {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        background-color: #000;
+    }
+
+    #loaderUp .loaderBall:nth-child(2) {
+        animation-delay: -0.25s;
+        background-color: #c53ced;
+    }
+
+    #loaderUp .loaderBall:nth-child(3) {
+        animation-delay: -0.5s;
+        background-color: #8f39db;
+    }
+
+    #loaderUp .loaderBall:nth-child(4) {
+        animation-delay: -0.75s;
+        background-color: #7223cb;
+    }
+
+    #loaderUp .loaderBall:nth-child(5) {
+        animation-delay: -1s;
+        background-color: #4427d8;
+    }
+
+    #loaderDown .loaderBall:nth-child(2) {
+        animation-delay: -0.25s;
+        background-color: #1fddc0;
+    }
+
+    #loaderDown .loaderBall:nth-child(3) {
+        animation-delay: -0.5s;
+        background-color: #2fd3d9;
+    }
+
+    #loaderDown .loaderBall:nth-child(4) {
+        animation-delay: -0.75s;
+        background-color: #27b4ea;
+    }
+
+    #loaderDown .loaderBall:nth-child(5) {
+        animation-delay: -1s;
+        background-color: #2887e2;
+    }
+
+    @keyframes loaderWave {
+
+        0%,
+        100% {
+            transform: translateY(100px);
+        }
+
+        50% {
+            transform: translateY(-80px);
+        }
+    }
+
+    @keyframes loaderReverseWave {
+
+        0%,
+        100% {
+            transform: translateY(-100px);
+        }
+
+        50% {
+            transform: translateY(80px);
+        }
+    }
+
+    .mEdits:hover {
+        font-weight: 700;
+        background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        margin-top: 8px;
+        color: transparent;
+
+
+
+
+    }
+
+    .rangerswidth {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<script>
+    window.addEventListener("load", function () {
+        document.getElementById("loaderContainer").style.display = "none";
     });
-  </script>
-  
+</script>
+
 <body>
     <nav class="navbar">
         <div id="container-logo">
@@ -307,12 +327,12 @@ text-align: center;}
             <p class="titlesss" style="margin-top: 30px;">Motvic Consumable <br> Electrical PVT ltd</p>
         </div>
         <style>
-            #container-navigation ul li:hover{
+            #container-navigation ul li:hover {
                 background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    margin-top: 8px;
-    color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+                margin-top: 8px;
+                color: transparent;
             }
         </style>
         <div id="container-navigation">
@@ -340,7 +360,8 @@ text-align: center;}
                 #about-section1 {
                     margin-top: 200px;
                 }
-                #about-section1 h1{
+
+                #about-section1 h1 {
                     font-size: 0.9rem;
                 }
             }
@@ -355,12 +376,12 @@ text-align: center;}
                 }
             }
         </style>
-        
+
         <div id="div-contact">
 
             <h5><a href="/contact.html" class="button-contactus11" style="margin-top: 20px;">Contact Us</a></h5>
         </div>
-        
+
         <div id="hamb">
             <div class="device">
                 <div class="container">
@@ -376,7 +397,7 @@ text-align: center;}
                             <li><a href="#"></a></li>
                             <li><a href="aboutus.html">About &amp; Us &nbsp; </a></li>
                             <li><a href="categories.html"> &nbsp; &nbsp; &nbsp;Categories</a></li>
-                        
+
                             <li><br></li>
                             <li><br></li>
                         </ul>
@@ -410,12 +431,18 @@ text-align: center;}
         </div>
     </div>
     <style>
-         #box-curve, #box-curve1, #box-curve2, #box-curve3, #box-curve6 {
+        #box-curve,
+        #box-curve1,
+        #box-curve2,
+        #box-curve3,
+        #box-curve6 {
             width: 100px;
             height: 100px;
             margin: 10px;
-            background-color: #3498db; /* Initial color */
-            border-radius: 15px; /* Rounded corners */
+            background-color: #3498db;
+            /* Initial color */
+            border-radius: 15px;
+            /* Rounded corners */
             transition: background 0.3s ease, transform 0.3s ease;
         }
 
@@ -424,68 +451,74 @@ text-align: center;}
             background: linear-gradient(to right, #0551D5 0%, #27A8F0 100%);
             transform: scale(1.1);
         }
+
         #box-curve:hover img {
-        filter: brightness(0) invert(1); /* Change image to white */
-    }
+            filter: brightness(0) invert(1);
+            /* Change image to white */
+        }
 
         /* Always apply the gradient and scaling to these elements */
         #box-curve1 {
             background: linear-gradient(to right, #0551D5 0%, #27A8F0 100%);
             transform: scale(1.1);
         }
-        #box-curve2{
+
+        #box-curve2 {
             background: linear-gradient(to right, #0551D5 0%, #27A8F0 100%);
             transform: scale(1.1);
 
         }
-        #box-curve3{
+
+        #box-curve3 {
             background: linear-gradient(to right, #0551D5 0%, #27A8F0 100%);
             transform: scale(1.1);
 
         }
-        #box-curve6{
+
+        #box-curve6 {
             background: linear-gradient(to right, #0551D5 0%, #27A8F0 100%);
             transform: scale(1.1);
 
         }
-        .makesure{
+
+        .makesure {
             width: 180px;
             text-align: left;
-            
+
         }
-        body{
+
+        body {
             overflow-x: hidden;
         }
-        
     </style>
-    <div id="mid" data-aos="slide-down"  data-aos-duration="800" style="margin-top: 50px;">
+    <div id="mid" data-aos="slide-down" data-aos-duration="800" style="margin-top: 50px;">
         <h3>Explore Our Range</h3>
     </div>
-    <div id="mid-div" data-aos="fade-right"  data-aos-duration="800"  style="margin-top: 50px;">
-        <div class="makesure">
+    <div id="mid-div" data-aos="fade-right" data-aos-duration="800" style="margin-top: 50px;">
+
+        <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; width: 250px; margin-top: 20px">
 
             <div id="box-curve">
                 <img src="/images/bshop.png" alt="" srcset="">
             </div>
-            <h3 class="all">Commercial Light</h3>
+            <h3 class="all" >Commercial Light</h3>
         </div>
-        <div class="makesure">
-<style>
-  
-</style>
-            <div id="box-curve" >
-                <img src="/images/fbr.png" alt=""  srcset="">
+
+        <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; width: 250px; margin-top: 20px">
+
+            <div id="box-curve">
+                <img src="/images/fbr.png" alt="" srcset="">
             </div>
-            <h3 class="all"  style="margin-right: 35px;">Retail-Light</h3>
+            <h3 class="all" >Retail-Light</h3>
         </div>
-        <div class="makesure">
+        <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; width: 250px; margin-top: 20px">
 
             <div id="box-curve">
                 <img src="/images/mslb.png" alt="" srcset="">
             </div>
             <h3 class="all">Landscape Light</h3>
         </div>
-        <div class="makesure">
+            <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; width: 250px; margin-top: 20px">
 
             <div id="box-curve">
                 <img src="/images/bhome.png" alt="" srcset="">
@@ -494,22 +527,22 @@ text-align: center;}
         </div>
 
 
-        <div class="makesure">
+            <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; width: 250px; margin-top: 20px">
 
             <div id="box-curve">
                 <img src="/images/bindust.png" alt="" srcset="">
             </div>
             <h3 class="all">Industrial Light </h3>
         </div>
-        <div class="makesure" style="margin-right: 50px;">
-            
-            <div id="box-curve" style="margin-left: 50px;">
+        <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; width: 250px; margin-top: 20px">
+
+            <div id="box-curve">
                 <img src="/images/bpl.png" alt="" srcset="">
             </div>
             <h3 class="all">SolarLight </h3>
-            
+
         </div>
-        <div class="makesure">
+            <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; width: 250px; margin-top: 20px">
 
             <div id="box-curve">
                 <img src="/images/bother.png" alt="" srcset="">
@@ -523,32 +556,32 @@ text-align: center;}
     <br>
     <section id="explain" style="margin-top: 100px;">
         <div id="commercial">
-            <div id="commercial-half" data-aos="slide-right"  data-aos-duration="1000" ></div>
-            <div id="commercial-otherhalf"  data-aos="slide-left"  data-aos-duration="1000" >
+            <div id="commercial-half" data-aos="slide-right" data-aos-duration="1000"></div>
+            <div id="commercial-otherhalf" data-aos="slide-left" data-aos-duration="1000">
                 <br>
                 <h1>Commercial Lighting</h1>
                 <br>
 
-                <p>Enhance your business with MV LED'S commercial lighting solutions. Designed for offices, 
+                <p>Enhance your business with MV LED'S commercial lighting solutions. Designed for offices,
                     warehouses, and public spaces, our lights offer</p>
-                 <br>
-                 <ul style="color: grey;">
-                     <li>Energy Efficiency: Save on energy costs with our high-performance LED technology.</li>
-                     <br>
-                     
-                     <li>Bright & Consistent Illumination: Ensure optimal lighting across large areas.
+                <br>
+                <ul style="color: grey;">
+                    <li>Energy Efficiency: Save on energy costs with our high-performance LED technology.</li>
+                    <br>
+
+                    <li>Bright & Consistent Illumination: Ensure optimal lighting across large areas.
                         <br>
-                        
+
                     </li>
-                    
+
                     <li>Durability: Built to last with long-term reliability.</li>
                     <br>
-              
+
                     <p>Perfect for modern offices and large-scale businesses. </p>
-                   </ul>
-                   <br>
-                   <style>
-                    #cat-button{
+                </ul>
+                <br>
+                <style>
+                    #cat-button {
                         width: 180px;
                         background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
                         display: flex;
@@ -556,64 +589,67 @@ text-align: center;}
                         justify-content: center;
                         border: none;
                         border-radius: 30px;
-                       
+
                     }
+
                     #cat-button a p {
                         margin-top: 15px;
-                        color: white;font-size: 1.1rem;
+                        color: white;
+                        font-size: 1.1rem;
                     }
-                   </style>
-                <button id="cat-button" >
+                </style>
+                <button id="cat-button">
                     <a href="/subCategories.html">
                         <p>View Category</p>
                     </a>
                 </button>
                 <br>
-                   <br><br>
+                <br><br>
                 <style>
-                    
+
                 </style>
-                
+
             </div>
         </div>
         <br>
         <br>
         <style>
-            #commercial1{
+            #commercial1 {
                 margin-top: 50px;
             }
-            #commercial{
+
+            #commercial {
                 margin-top: 50px;
             }
         </style>
         <div id="commercial1">
-            <div id="commercial-otherhalf" data-aos="slide-right"  data-aos-duration="1000"   >
+            <div id="commercial-otherhalf" data-aos="slide-right" data-aos-duration="1000">
                 <br>
-                <h1 >Retail Lighting</h1>
+                <h1>Retail Lighting</h1>
                 <br>
                 <br>
 
                 <p>Create an inviting shopping experience with MV LED'S retail lighting. Our solutions include:</p>
-                 <br>
-                 <ul style="color: grey;">
-                     <li>Accent Lighting: Highlight key products and displays                        .</li>
-                     <br>
-                     
-                     <li>Ambient Lighting: Set the perfect mood for your customers.
+                <br>
+                <ul style="color: grey;">
+                    <li>Accent Lighting: Highlight key products and displays .</li>
+                    <br>
+
+                    <li>Ambient Lighting: Set the perfect mood for your customers.
 
                         <br>
-                        
+
                     </li>
-                    
+
                     <li>Enhanced Product Visibility: Make your merchandise stand out.</li>
                     <br>
-              
-                    <p>Ideal for boutiques, department stores, and all retail environments. 
+
+                    <p>Ideal for boutiques, department stores, and all retail environments.
                     </p>
-                    
-                   </ul>
+
+                </ul>
                 <style>
-                    #cat-button{
+                    #cat-button {
                         width: 180px;
                         background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
                         display: flex;
@@ -621,52 +657,54 @@ text-align: center;}
                         justify-content: center;
                         border: none;
                         border-radius: 30px;
-                       
+
                     }
+
                     #cat-button a p {
                         margin-top: 15px;
-                        color: white;font-size: 1.1rem;
+                        color: white;
+                        font-size: 1.1rem;
                     }
-                   </style>
-                   
-                <button id="cat-button" >
+                </style>
+
+                <button id="cat-button">
                     <a href="/Retial.html">
                         <p>View Category</p>
                     </a>
                 </button>
                 <br>
-                   <br>
+                <br>
             </div>
-            <div id="commercial-half-retail" data-aos="slide-left"  data-aos-duration="1000"></div>
+            <div id="commercial-half-retail" data-aos="slide-left" data-aos-duration="1000"></div>
         </div>
         <br>
         <div id="commercial">
-            <div id="commercial-halfland" data-aos="slide-right"  data-aos-duration="1000" ></div>
-            <div id="commercial-otherhalf" data-aos="slide-left"  data-aos-duration="1000"   >
+            <div id="commercial-halfland" data-aos="slide-right" data-aos-duration="1000"></div>
+            <div id="commercial-otherhalf" data-aos="slide-left" data-aos-duration="1000">
                 <br>
                 <h1>Landscape Lighting</h1>
                 <br>
 
                 <p>Transform your outdoor spaces with MV LED'S landscape lighting:</p>
-                 <br>
-                 <ul style="color: grey;">
-                     <li>Garden & Pathway Illumination: Enhance the beauty of your landscape.</li>
-                     <br>
-                     
-                     <li>Safety & Security: Brighten paths and entryways for improved safety.
+                <br>
+                <ul style="color: grey;">
+                    <li>Garden & Pathway Illumination: Enhance the beauty of your landscape.</li>
+                    <br>
+
+                    <li>Safety & Security: Brighten paths and entryways for improved safety.
 
                         <br>
-                        
+
                     </li>
-                    
+
                     <li>Eco-Friendly Options: Choose from solar-powered fixtures and energy-efficient LEDs.</li>
                     <br>
-              
-                    <p>Perfect for residential and commercial outdoor spaces. 
+
+                    <p>Perfect for residential and commercial outdoor spaces.
                     </p>
-                   </ul>
+                </ul>
                 <style>
-                    #cat-button{
+                    #cat-button {
                         width: 180px;
                         background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
                         display: flex;
@@ -674,14 +712,16 @@ text-align: center;}
                         justify-content: center;
                         border: none;
                         border-radius: 30px;
-                       
+
                     }
+
                     #cat-button a p {
                         margin-top: 15px;
-                        color: white;font-size: 1.1rem;
+                        color: white;
+                        font-size: 1.1rem;
                     }
-                   </style>
-                <button id="cat-button" >
+                </style>
+                <button id="cat-button">
                     <a href="/landscape.html">
                         <p>View Category</p>
                     </a>
@@ -691,30 +731,30 @@ text-align: center;}
         </div>
         <br>
         <div id="commercial1">
-            <div id="commercial-otherhalf" data-aos="slide-right"  data-aos-duration="1000"   >
+            <div id="commercial-otherhalf" data-aos="slide-right" data-aos-duration="1000">
                 <br>
                 <h1>Architectural Lighting</h1>
                 <br>
 
                 <p>Highlight the unique features of your building with MV LED'S architectural lighting:</p>
-                 <br>
-                 <ul style="color: grey;">
-                     <li>Design Integration: Seamlessly blends with your building's architecture.</li>
-                     <br>
-                     
-                     <li>Visual Impact: Create captivating light effects for modern or historical structures.
+                <br>
+                <ul style="color: grey;">
+                    <li>Design Integration: Seamlessly blends with your building's architecture.</li>
+                    <br>
+
+                    <li>Visual Impact: Create captivating light effects for modern or historical structures.
 
                         <br>
-                        
+
                     </li>
-                    
+
                     <li>Energy Efficiency: Superior LED technology for sustainable lighting.</li>
                     <br>
-              
+
                     <p>Ideal for enhancing the identity and appeal of any building.</p>
-                   </ul>
+                </ul>
                 <style>
-                    #cat-button{
+                    #cat-button {
                         width: 180px;
                         background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
                         display: flex;
@@ -722,49 +762,51 @@ text-align: center;}
                         justify-content: center;
                         border: none;
                         border-radius: 30px;
-                       
+
                     }
+
                     #cat-button a p {
                         margin-top: 15px;
-                        color: white;font-size: 1.1rem;
+                        color: white;
+                        font-size: 1.1rem;
                     }
-                   </style>
-                <button id="cat-button" >
+                </style>
+                <button id="cat-button">
                     <a href="/Architectural.html">
                         <p>View Category</p>
                     </a>
                 </button>
                 <br><br>
             </div>
-            <div id="commercial-half-retailarc" data-aos="slide-left"  data-aos-duration="1000"></div>
+            <div id="commercial-half-retailarc" data-aos="slide-left" data-aos-duration="1000"></div>
         </div>
         <br>
         <div id="commercial">
-            <div id="commercial-halflandind" data-aos="slide-right"  data-aos-duration="1000"></div>
-            <div id="commercial-otherhalf" data-aos="slide-left"  data-aos-duration="1000"   >
+            <div id="commercial-halflandind" data-aos="slide-right" data-aos-duration="1000"></div>
+            <div id="commercial-otherhalf" data-aos="slide-left" data-aos-duration="1000">
                 <br>
                 <h1>Industrial Lighting</h1>
                 <br>
 
                 <p>Equip your industrial spaces with MV LED'S robust lighting solutions.</p>
-                 <br>
-                 <ul style="color: grey;">
-                     <li>Energy Efficiency: Save on energy costs with our high-performance LED technology.</li>
-                     <br>
-                     
-                     <li>High Lumen Output: Maximum visibility for factories and warehouses.
+                <br>
+                <ul style="color: grey;">
+                    <li>Energy Efficiency: Save on energy costs with our high-performance LED technology.</li>
+                    <br>
+
+                    <li>High Lumen Output: Maximum visibility for factories and warehouses.
                         <br>
-                        
+
                     </li>
-                    
+
                     <li>Rugged Durability: Withstands dust, moisture, and extreme conditions.</li>
                     <br>
-              
-                    <p>Essential for maintaining productivity and safety in industrial environments. 
+
+                    <p>Essential for maintaining productivity and safety in industrial environments.
                     </p>
-                   </ul>
+                </ul>
                 <style>
-                    #cat-button{
+                    #cat-button {
                         width: 180px;
                         background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
                         display: flex;
@@ -772,14 +814,16 @@ text-align: center;}
                         justify-content: center;
                         border: none;
                         border-radius: 30px;
-                       
+
                     }
+
                     #cat-button a p {
                         margin-top: 15px;
-                        color: white;font-size: 1.1rem;
+                        color: white;
+                        font-size: 1.1rem;
                     }
-                   </style>
-                <button id="cat-button" >
+                </style>
+                <button id="cat-button">
                     <a href="/Industrial.html">
                         <p>View Category</p>
                     </a>
@@ -789,31 +833,31 @@ text-align: center;}
         </div>
         <br>
         <div id="commercial1">
-            <div id="commercial-otherhalf" data-aos="slide-right"  data-aos-duration="1000"   >
+            <div id="commercial-otherhalf" data-aos="slide-right" data-aos-duration="1000">
                 <br>
                 <h1>Solar Lighting</h1>
                 <br>
 
                 <p>Choose MV LED'S solar lighting for a sustainable outdoor solution: </p>
-                 <br>
-                 <ul style="color: grey;">
-                     <li>Energy Efficiency: Save on energy costs with our high-performance LED technology.</li>
-                     <br>
-                     
-                     <li>Versatile Applications: Perfect for gardens, pathways, and remote areas
+                <br>
+                <ul style="color: grey;">
+                    <li>Energy Efficiency: Save on energy costs with our high-performance LED technology.</li>
+                    <br>
+
+                    <li>Versatile Applications: Perfect for gardens, pathways, and remote areas
                         <br>
-                        
+
                     </li>
-                    
+
                     <li>Reliable Performance: Operates independently of the electrical grid.
                     </li>
                     <br>
-              
-                    <p>Reduce your environmental footprint with our cutting-edge solar technology. 
+
+                    <p>Reduce your environmental footprint with our cutting-edge solar technology.
                     </p>
-                   </ul>
+                </ul>
                 <style>
-                    #cat-button{
+                    #cat-button {
                         width: 180px;
                         background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
                         display: flex;
@@ -821,50 +865,52 @@ text-align: center;}
                         justify-content: center;
                         border: none;
                         border-radius: 30px;
-                       
+
                     }
+
                     #cat-button a p {
                         margin-top: 15px;
-                        color: white;font-size: 1.1rem;
+                        color: white;
+                        font-size: 1.1rem;
                     }
-                   </style>
-                <button id="cat-button" >
+                </style>
+                <button id="cat-button">
                     <a href="/solar.html">
                         <p>View Category</p>
                     </a>
                 </button>
                 <br><br>
             </div>
-            <div id="commercial-half-retailarcsolar" data-aos="slide-left"  data-aos-duration="1000"></div>
+            <div id="commercial-half-retailarcsolar" data-aos="slide-left" data-aos-duration="1000"></div>
         </div>
         <br>
         <div id="commercial">
-            <div id="commercial-halflandindoth" data-aos="slide-right"  data-aos-duration="1000"></div>
-            <div id="commercial-otherhalf" data-aos="slide-left"  data-aos-duration="1000"   >
+            <div id="commercial-halflandindoth" data-aos="slide-right" data-aos-duration="1000"></div>
+            <div id="commercial-otherhalf" data-aos="slide-left" data-aos-duration="1000">
                 <br>
                 <h1>Other Lighting</h1>
                 <br>
                 <br>
 
-                <p>Enhance your business with MV LED'S commercial lighting solutions. Designed for offices, 
+                <p>Enhance your business with MV LED'S commercial lighting solutions. Designed for offices,
                     warehouses, and public spaces, our lights offer</p>
-                 <br>
-                 <ul style="color: grey;">
-                     <li>Energy Efficiency: Save on energy costs with our high-performance LED technology.</li>
-                     <br>
-                     
-                     <li>Bright & Consistent Illumination: Ensure optimal lighting across large areas.
+                <br>
+                <ul style="color: grey;">
+                    <li>Energy Efficiency: Save on energy costs with our high-performance LED technology.</li>
+                    <br>
+
+                    <li>Bright & Consistent Illumination: Ensure optimal lighting across large areas.
                         <br>
-                        
+
                     </li>
-                    
+
                     <li>Durability: Built to last with long-term reliability.</li>
                     <br>
-              
+
                     <p>Perfect for modern offices and large-scale businesses. </p>
-                   </ul>
+                </ul>
                 <style>
-                    #cat-button{
+                    #cat-button {
                         width: 180px;
                         background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
                         display: flex;
@@ -872,14 +918,16 @@ text-align: center;}
                         justify-content: center;
                         border: none;
                         border-radius: 30px;
-                       
+
                     }
+
                     #cat-button a p {
                         margin-top: 15px;
-                        color: white;font-size: 1.1rem;
+                        color: white;
+                        font-size: 1.1rem;
                     }
-                   </style>
-                <button id="cat-button" >
+                </style>
+                <button id="cat-button">
                     <a href="other.html">
                         <p>View Category</p>
                     </a>
@@ -892,51 +940,58 @@ text-align: center;}
     </section>
     <br><br>
 
-    <div id="contact-section-res"  class="rangerswidth" data-aos="slide-left" data-aos-duration="1000">
+    <div id="contact-section-res" class="rangerswidth" data-aos="slide-left" data-aos-duration="1000">
         <div class="containerss my-5">
-          <div class="row">
-              <div class="col-sm-6 d-none d-md-block ">
-                  <img src="/images/contact-img.png" alt="Contact Image" class="img-fluid">
-              </div>
-              <div class="col-sm-6">
-                <h1 class="text-center mContact">Contact Us</h1>
-                <p class="text-center" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur magnam, deserunt, earum fugit
-                    doloremque velit perferendis quo quisquam hic officia iusto ratione est repellendus quia sit, obcaecati
-                    similique praesentium? Repudiandae.</p>
-                  <form action="#" class="contFrm" method="POST">
-                      <div class="row">
-                          <div class="col-sm-6 p-2 ">
-                              <input type="text" name="name" placeholder="Your Name" class="inptFld text-center " required />
-                          </div>
-  
-                          <div class="col-sm-6 p-2 ">
-                              <input type="email" name="email" placeholder="Email Address" class="inptFld text-center" required />
-                          </div>
-  
-                          <div class="col-sm-6 p-2">
-                              <input type="tel" name="phone" placeholder="Phone Number" class="inptFld text-center" required />
-                          </div>
-  
-                          <div class="col-sm-6 p-2" >
-                              <input type="text" name="sub" placeholder="Subject" class="inptFld text-center" required />
-                          </div>
-  
-                          <div class="col-12 p-2">
-                              <textarea class="inptFld p-5 w-100 mt-2 jdd" rows="" cols="" placeholder="Your Message..." required></textarea>
-                          </div>
-  
-                          <div class="col-12 text-center"> <!-- Text aligned to the right -->
-                              <input type="submit" name="submit" value="SUBMIT" class="inptBtn" />
-                          </div>
-                      </div>
-                  </form>
-              </div>
-          </div>
-      </div>
+            <div class="row">
+                <div class="col-sm-6 d-none d-md-block ">
+                    <img src="/images/contact-img.png" alt="Contact Image" class="img-fluid">
+                </div>
+                <div class="col-sm-6">
+                    <h1 class="text-center mContact">Contact Us</h1>
+                    <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur magnam,
+                        deserunt, earum fugit
+                        doloremque velit perferendis quo quisquam hic officia iusto ratione est repellendus quia sit,
+                        obcaecati
+                        similique praesentium? Repudiandae.</p>
+                    <form action="#" class="contFrm" method="POST">
+                        <div class="row">
+                            <div class="col-sm-6 p-2 ">
+                                <input type="text" name="name" placeholder="Your Name" class="inptFld text-center "
+                                    required />
+                            </div>
+
+                            <div class="col-sm-6 p-2 ">
+                                <input type="email" name="email" placeholder="Email Address" class="inptFld text-center"
+                                    required />
+                            </div>
+
+                            <div class="col-sm-6 p-2">
+                                <input type="tel" name="phone" placeholder="Phone Number" class="inptFld text-center"
+                                    required />
+                            </div>
+
+                            <div class="col-sm-6 p-2">
+                                <input type="text" name="sub" placeholder="Subject" class="inptFld text-center"
+                                    required />
+                            </div>
+
+                            <div class="col-12 p-2">
+                                <textarea class="inptFld p-5 w-100 mt-2 jdd" rows="" cols=""
+                                    placeholder="Your Message..." required></textarea>
+                            </div>
+
+                            <div class="col-12 text-center"> <!-- Text aligned to the right -->
+                                <input type="submit" name="submit" value="SUBMIT" class="inptBtn" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-    
-  
-    <footer data-aos="zoom-out-right"  data-aos-duration="1000" >
+
+
+    <footer data-aos="zoom-out-right" data-aos-duration="1000">
         <div id="section1footer">
             <img src="/images/logo.png" height="100px" alt="" srcset="">
             <h1 style="margin-top: 30px;">Motvic Consumable <br> Electrical PVT ltd</h1>
@@ -948,10 +1003,11 @@ text-align: center;}
         </div>
         <style>
             a {
-    text-decoration: none; /* Removes the underline */
-    color: inherit; /* Inherits the color from the parent element */
-}
-
+                text-decoration: none;
+                /* Removes the underline */
+                color: inherit;
+                /* Inherits the color from the parent element */
+            }
         </style>
         <div id="section2footer">
             <ul>
@@ -960,13 +1016,13 @@ text-align: center;}
                     <li>Home</li>
                 </a>
                 <a href="/categories.html">
-                    
+
                     <li>Categories</li>
-                </a><a href="/categories.html">                    
-                                      
+                </a><a href="/categories.html">
+
                     <li>AboutUs</li>
                 </a><a href="/contact.html">
-                    
+
                     <li>Contact Us</li>
                 </a>
             </ul>
@@ -987,7 +1043,8 @@ text-align: center;}
                         <img src="/images/linkdein.png" class="social" height="60px" alt="">
                     </a>
                     <!-- <img src="images/facebook.png" class="social" height="60px" alt=""> -->
-                    <a href="https://www.instagram.com/motvic_consumable/?igsh=MWJicWc2ZGoyZ280MA%3D%3D">   <img src="images/instagram.png" class="social" height="60px" alt="">
+                    <a href="https://www.instagram.com/motvic_consumable/?igsh=MWJicWc2ZGoyZ280MA%3D%3D"> <img
+                            src="images/instagram.png" class="social" height="60px" alt="">
                     </a>
                 </div>
             </div>
@@ -999,21 +1056,21 @@ text-align: center;}
             </div>
         </div>
     </footer>
-<div id="second-footertitle">
-    <h5>Designed, Ideated & Developed with ❤️  by Digilligent</h5>
-    <h5 style="color: grey;">©️ Motvic Consumables Electrical PVT LTD</h5>
-    <h5 style="color: grey;" >Terms and conditions</h5>
+    <div id="second-footertitle">
+        <h5>Designed, Ideated & Developed with ❤️ by Digilligent</h5>
+        <h5 style="color: grey;">©️ Motvic Consumables Electrical PVT LTD</h5>
+        <h5 style="color: grey;">Terms and conditions</h5>
 
-</div>
+    </div>
     <!-- <script src="/javascript/index.js"></script> -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init({
-        once: false
-      });
+        AOS.init({
+            once: false
+        });
     </script>
-     <script src="/javascript/index.js"></script>
-     <script src="/javascript/script.js"></script>
+    <script src="/javascript/index.js"></script>
+    <script src="/javascript/script.js"></script>
 </body>
 
 </html>
